@@ -5,10 +5,13 @@
 }
 .chartContainer1 {
     padding-left:230px;
-    padding-bottom: 15px;
     font-family: 'Arial';
 }
 .source {
     font-family: 'Arial';
     font-size: 12px;
+}
+
+p {
+    font-family: 'Arial';
 }
