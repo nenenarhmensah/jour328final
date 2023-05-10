@@ -1,3 +1,41 @@
+var ctx = document.getElementById('ChartRepresentative').getContext('2d');
+var myChart = new Chart(ctx, {
+    type: 'bar',
+    data: {
+        labels: ['State Senator', 'Delegate', 'Baltimore County Delegation', 'Gov. Wes Moore', 'Prince Georges County Delegation', 'Speaker, by request of admin', 'Talbot County Delegation'],
+        datasets: [{
+            label: 'Number of bills',
+            data: [26, 23, 3, 2, 2, 1, 1],
+            backgroundColor: [
+                '#9D2235'
+            ]
+        },
+    ]
+    },
+    options: {
+        responsive: true,
+        plugins: {
+            title: {
+                display: true,
+                text: 'Number of bills by representative type',
+                font: {
+                    size: 18
+                }
+            },
+            subtitle: {
+                display: true,
+                text: 'State Senators passed more bills than Delegates by a slight margin this legislative session'
+            }
+        },
+        scales: {
+            y: {
+                beginAtZero: true
+            }
+        },
+    },
+});
+
+
 var ctx = document.getElementById('myChart').getContext('2d');
 var myChart = new Chart(ctx, {
     type: 'bar',
