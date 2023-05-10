@@ -1,0 +1,14 @@
+.chartContainer {
+    width:800px;
+    padding-left:335px;
+    padding-bottom: 25px;
+}
+.chartContainer1 {
+    padding-left:230px;
+    padding-bottom: 15px;
+    font-family: 'Arial';
+}
+.source {
+    font-family: 'Arial';
+    font-size: 12px;
+}

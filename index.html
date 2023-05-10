@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple bar chart</title>
+    <!--Chart.js JS CDN--> 
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@3.5.1/dist/chart.min.js"></script> 
+    <link rel="stylesheet" href="style.css">
+
+</head>
+  <body>
+    <div class="chartContainer1">
+    <h1>Maryland Education Bills Passed by the General Assembly in 2023</h1>
+    </div>
+
+    <!-- add this container and style to stylesheet to resize the graphic-->
+    <div class="chartContainer">
+    <div class="flourish-embed flourish-hierarchy" data-src="visualisation/13702794"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+    </div>
+    
+    <div class="chartContainer">
+      <canvas id="myChart"></canvas>
+      <div class="source">Source: <a href="https://docs.google.com/spreadsheets/d/1rpGRiRa9yUgM8THwJ6YrBbpHrsdipzbLjcnZSmCWMF0/edit?usp=sharing">Maryland General Assembly</a></div>
+    </div>
+
+    <div class="chartContainer">
+        <canvas id="myChartMultiple"></canvas>
+        <div class="source">Source: <a href="https://docs.google.com/spreadsheets/d/1rpGRiRa9yUgM8THwJ6YrBbpHrsdipzbLjcnZSmCWMF0/edit?usp=sharing">Maryland General Assembly</a></div>
+    </div>
+
+    <div class="chartContainer">
+        <canvas id="myChartPolar"></canvas>
+        <div class="source">Source: <a href="https://docs.google.com/spreadsheets/d/1rpGRiRa9yUgM8THwJ6YrBbpHrsdipzbLjcnZSmCWMF0/edit?usp=sharing">Maryland General Assembly</a></div>
+    </div>
+
+<script src="javascript.js"></script>
+
+  </body>
+</html>
